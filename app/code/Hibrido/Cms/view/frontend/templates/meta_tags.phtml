@@ -1,0 +1,14 @@
+<?php
+/**
+ * @author Mateus Melo
+ */
+
+/** @var \Hibrido\Cms\Block\MetaTags $block */
+?>
+<?php foreach ($block->getPageStoresData() as $store) :
+    $storeLanguage = $store['code'];
+    $baseUrl = $store['baseUrl'];
+    $cmsPageUrl = $store['identifier'];
+?>
+    <link rel="alternate" hreflang="<?= $storeLanguage ?>" href="<?= $baseUrl . $cmsPageUrl ?>">
+<?php endforeach; ?>
