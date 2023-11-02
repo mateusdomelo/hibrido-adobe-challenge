@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @author Mateus Melo
+ */
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="head.additional">
+            <block class="Hibrido\Cms\Block\MetaTags" name="cms_meta_tags" template="Hibrido_Cms::meta_tags.phtml" />
+        </referenceContainer>
+    </body>
+</page>
