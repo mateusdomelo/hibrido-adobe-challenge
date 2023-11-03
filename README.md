@@ -120,8 +120,8 @@ Conforme sugerido no desafio técnico, disponibilizei um ambiente público utili
 
 Pode ser conferido através dos endereços e acessos abaixo:
 
-  - Frontend: http://18.234.231.56/
-  - Admin (Backoffice): http://18.234.231.56/magentoadmin
+  - Frontend: http://54.158.42.112/
+  - Admin (Backoffice): http://54.158.42.112/admin_bdda7t
     - User: equipe.hibrido
     - Password: 1tAd=}5K'$pw0WE?'9lNme3m.com   
 
